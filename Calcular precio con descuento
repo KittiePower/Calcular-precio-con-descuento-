@@ -1,0 +1,24 @@
+
+/******************************************************************************
+Calcular precio con descuento 
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main ()
+{
+    //Declaración de variables 
+    float precioMedicamento=0 ;float precioDescuento=0 ;
+    float descuento= 0.15;
+    
+    //Entrada de datos por teclado y procedimientos 
+    cout<< " Escribe el valor del precioMedicamento " ;
+    std::cin>> precioMedicamento;
+    precioDescuento=  precioMedicamento-(precioMedicamento * descuento);
+    cout << " El precio con descuento es igual a  " << precioDescuento<<endl;
+    
+    return 0;
+}
+
